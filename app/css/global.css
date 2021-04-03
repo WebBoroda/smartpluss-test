@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital@0;1&family=Ovo&family=Playfair+Display:wght@400;700&display=swap");
+:root {
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-bg-button: #da6f5b;
+  --color-bg-link-nav-active: #2d2d35;
+  --color-bg: #2d2d35;
+  --color-bg-form: rgba(0, 0, 0, 0.63);
+  --color-bg-input: rgba(255, 255, 255, .2);
+  --color-text-dark: #2d2d35;
+  --color-text-light: #5b5e6b;
+  --color-shadow-primary: rgba(194, 203, 210, .27); }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  background-color: var(--color-white); }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+.is-outer {
+  position: relative !important;
+  left: -9999px !important; }
+
+.is-hidden {
+  display: none !important; }
+
+.error {
+  border: 2px #ff4019 solid !important; }
+
+.btn-reset {
+  border: none;
+  background: transparent;
+  cursor: pointer; }
+
+.site-container {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none; }
+
+.lock {
+  overflow: hidden; }
+
+/*# sourceMappingURL=global.css.map */

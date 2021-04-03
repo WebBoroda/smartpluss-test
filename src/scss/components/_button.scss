@@ -1,0 +1,41 @@
+.button {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px 88px;
+  color: var(--color-white);
+  background-color: var(--color-bg-button);
+  border-radius: 5px;
+  transition: all .5s ease;
+}
+
+.form__btn {
+  padding: 12px 88px;
+  margin-bottom: 0;
+}
+
+.slider__btn {
+  display: block;
+  font-size: 15px;
+  padding: 12px 56px;
+  color: var(--color-bg-button);
+  background-color: transparent;
+  border: 1px solid var(--color-bg-button);
+}
+
+
+@media (min-width: 767px) {
+  .button {
+    flex-grow: 0;
+    order: 1;
+    font-size: 18px;
+    padding: 12px 58px;
+    margin-bottom: 0;
+  }
+
+  .form__btn {
+    display: block;
+    padding: 12px 86px;
+  }
+
+}
